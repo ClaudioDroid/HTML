@@ -1,0 +1,39 @@
+header{
+	border: 1px solid grey;
+}
+
+nav{
+	border: 1px solid green;
+	background: #bc55f211;
+	padding: 10px;
+}
+
+footer{
+	background: gray;
+}
+
+article{
+	background: yellow;
+	padding: 5px;
+}
+
+section{
+	border: 2px dotted white;
+}
+
+aside{
+	background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

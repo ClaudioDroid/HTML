@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FLexbox </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/novas-tags.css">
+
+	<style type="text/css">
+		#conteudo{
+			background: #dcdcdc;
+			height: 400px;
+			display: flex;
+			flex-shrink: 0;
+			flex-basis: auto;
+
+			/*
+			/*
+			row | row-reverse | column | column-reverse
+			*/
+			/*flex-direction: row;
+
+			/*
+			nowrap | nowrap-reverse
+			*/
+			/*flex-wrap: nowrap;
+
+			/*
+			flex-start | flex-end | center | space-between | space-round
+			*/
+			/*justify-content: space-around;
+
+			/*
+			stretch | center | flex-start | flex-end | baseline
+			*/
+			/*align-items: baseline;*/
+		}
+
+		.item{
+			width: 100px;
+			height: 100px; 
+			margin: 10px;
+			background: white;
+			border: 1px solid gray; 
+		}
+
+		.grow{
+			flex-grow: 1;
+		}
+		.shrink{
+			flex-shrink: 3;
+		}
+
+		.ordem{
+			order: -1;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>FlexBox</h1>
+	<div id="conteudo">
+		<div class="item shrink">01</div>
+		<div class="item grow">02</div>
+		<div class="item ordem">03</div>
+		<div class="item">04</div>
+	</div>
+
+</body>
+</html>
