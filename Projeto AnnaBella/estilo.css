@@ -1,0 +1,39 @@
+body{
+	background:#d2d2c1 url('Imagens/fundo.png')	;
+	font: 16px arial Helvetica;
+}
+#principal {
+	border: 0px red solid;
+	width: 900px;
+}
+
+#menu{
+	background: #c5c5b2;
+	padding: 18px;
+
+}
+
+#conteudo{
+	background-color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+#rodape{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}
+#borda{
+	border: 9px solid #c3c3ae ;
+	border-image: 88px;
+	/*padding: 55px;*/
+}
+
+a{
+	text-decoration: none;
+	color: #4b5664;
+	font-weight: bold;
+	padding: 5px;
+}
